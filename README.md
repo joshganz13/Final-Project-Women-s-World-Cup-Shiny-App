@@ -31,4 +31,5 @@ Instructions for navigating this app:
 #### Links:
 
 Shiny app link: https://jganz.shinyapps.io/Data_Vis_DSBA5122_Fall19/
+
 Report link: https://bookdown.org/joshganz13/data_vis_project/
