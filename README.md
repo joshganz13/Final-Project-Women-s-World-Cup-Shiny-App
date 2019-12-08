@@ -34,6 +34,3 @@ Shiny app link: https://jganz.shinyapps.io/Data_Vis_DSBA5122_Fall19/
 
 Report link: https://bookdown.org/joshganz13/data_vis_project/
 
-# Reproducibility
-
-If you'd like to use the code, please do.  However, you will need to go into the Shiny app first (link above) and download the Happiness.wav file in the overview page.  Then place it in the www folder before running the Rproject.
