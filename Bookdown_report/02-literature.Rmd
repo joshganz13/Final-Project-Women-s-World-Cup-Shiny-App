@@ -1,0 +1,35 @@
+#Encoding/Interaction Design
+
+
+The FIFA Women’s World Cup is a global and increasingly popular tournament.  The data of interest relates to the countries and the years they participated in the tournament, the number of goals and wins by country, where the countries are located around the globe, and the players in the tournament.
+
+Building interactive visual representations are important to assist end-users in answering specific questions.  It is important the interactions work properly to display correct and useful data while avoiding redundancy, creating an intuitive and positive experience for the user.  The validity of whether the data visualization design is effective is not just determined by the product being successfully built but also by whether it is the right product for the user. 
+
+1. What years did countries participate in the tournament and how many goals did they score, per year and across all tournaments?
+
+  - data was prepared to produce years countries participated, total goals scored per participating year*, and total goals scored across all tournaments
+  - interactive line plot created to visualize user-selected countries and their goals per year (credit: Ryan Wesslen)
+
+  - brushing option included in line plot to allow users the ability to select specific subsets of years and countries, which is reflected in the date generated in a data table below the line plot (Appendix A)
+
+*To generate the plot without errors, countries not participating in a particular year had to display zero goals on the plot when at least one other country was selected for a comparison.  However, if the data table generates a zero for year_goals and total_goals_all_years in an observation, that country did not participate in the tournament for that year. 
+
+2. How many wins did participating countries have during an individual tournament?  Who won the tournament?
+
+  - data was prepared to total the wins of each participating country per tournament year, which was then joined with a data frame to add whether a team was the champion
+  - interactive bar plot created to visualize number of wins for each participating country during a specific year
+  - champion is designated with a colorblind-friendly red, while other bars a colorblind-friendly blue (Appendix B)
+
+3. Where around the globe are the participating countries located and what are the country goals per year?
+
+  - data was prepared to join latitude and longitude coordinates to the countries, as well as joining the countries with the total goals they scored by each team by year
+  - interactive map created to visualize the countries that participated during selected year and has a gradient fill to portray a comparison of each country’s total number of goals during that year’s tournament 
+  - understanding processing time for this may take a few seconds, a processing spinner identifies the map is generating (Appendix C).
+
+4. Who are the players participating in the 2019 World Cup?**
+
+  - squads data was prepared
+  - interactive data table created to visualize player information such as name, country, date of birth, age, position, club team, international appearances, and international goals
+
+**Only had 2019 roster data.
+

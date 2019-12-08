@@ -1,0 +1,87 @@
+`r if (knitr::is_html_output()) '
+#Appendix {-}
+'`
+
+  A
+      
+```{r pressure, echo=FALSE, out.width="100%"}
+knitr::include_graphics("./A.png", auto_pdf = FALSE)
+```
+
+  B
+    
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("./B.png", auto_pdf = FALSE)
+```
+
+  C
+    
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("./C.png", auto_pdf = FALSE)
+```
+
+  D
+  
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("./D.png", auto_pdf = FALSE)
+```
+
+  E.1
+  
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("./E1.png", auto_pdf = FALSE)
+```
+
+  E.2
+  
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("./E2.png", auto_pdf = FALSE)
+```
+
+  E.3
+  
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("./E3.png", auto_pdf = FALSE)
+```
+
+  E.4
+  
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("./E4.png", auto_pdf = FALSE)
+```
+
+  E.5
+  
+```{r echo=FALSE, out.width = "45%"}
+knitr::include_graphics("./E5.png", auto_pdf = FALSE)
+```
+
+  E.6
+  
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("./E6.png", auto_pdf = FALSE)
+```
+
+  E.7
+  
+```{r echo=FALSE, out.width = "45%"}
+knitr::include_graphics("./E7.png", auto_pdf = FALSE)
+```
+
+  E.8
+  
+```{r echo=FALSE, out.width = "45%"}
+knitr::include_graphics("./E8.png", auto_pdf = FALSE)
+```
+
+  E.9
+  
+```{r echo=FALSE, out.width="55%" }
+knitr::include_graphics("./E9.png", auto_pdf = FALSE)
+```
+
+  E.10
+  
+```{r echo=FALSE, out.width = "45%"}
+knitr::include_graphics("./E10.png", auto_pdf = FALSE)
+```

@@ -1,0 +1,30 @@
+--- 
+title: "Data Visualization Design Project"
+author: "Joshua Ganz, Julian Mucha & Eric Rwabuhihi"
+date: "`r Sys.Date()`"
+bibliography:
+- book.bib
+- packages.bib
+description: This is a minimal example of using the bookdown package to write a book.
+  The output format for this example is bookdown::gitbook.
+documentclass: book
+link-citations: yes
+site: bookdown::bookdown_site
+biblio-style: apalike
+---
+
+# Introduction: Domain Problem Characterization
+
+
+Millions of people around the world like to watch football, commonly known as soccer in the United States. It is the most watched sport in Europe, Asia, and Africa. Most recently, the United States has attracted many fans, due in part to the US women’s soccer team, which has won the FIFA Women’s World Cup on four occasions since its inauguration in 1991. The goal of this project is to analyze how teams performed in the world cup in the last 28 years: country participation, goals scored, wins, and champions. It is designed for journalists, football fans and football analysts to get a glimpse into the tournament’s history, and its outcome, and write or comment about it.
+
+Our team would like to thank Amanda Peterson Plunkett who initially designed and provided the visualization of the FIFA Women's World Cup  that inspired us to use the soccer data for our own data visualization design.  The initial design was a static plot and did not address the following:
+
+  - Ability to compare goals between years between all countries
+  - Ability to identify countries that missed the World Cup during specific years
+  - Ability to identify goals scored per a specific year and across all years
+  - Ability to compare wins per year and who the champion was
+
+Within our team’s data visualization design application, the user will be able to accomplish the above with interactivity measures.   
+
+

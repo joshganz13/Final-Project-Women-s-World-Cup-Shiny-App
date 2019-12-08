@@ -1,0 +1,7 @@
+#User Evaluation
+
+
+When building a system, an R user wants code to run fast and be efficient. However, it is not always clear where the developer should be spending their coding time to create this efficiency. However, there is a solution for this. One way to test the system is by using the profvis package in R. It is a tool that helps the developer understand how R spends its time when running the system. It provides an interactive graphical interface for visualizing data.  Using Rprof, R’s built in tool for collecting profiling data, the developer can see and decide where time should be spent optimizing the code.
+
+Another way to evaluate the system is to conduct a survey. This provides the user an opportunity to offer feedback regarding various factors most important to them. The user can assess if the data visualization design meets their needs and their ability to extract insights from the data. The feedback is important for the developer to guide improvements to the system, assisting in building a product that is efficient, purposeful, and insightful.
+

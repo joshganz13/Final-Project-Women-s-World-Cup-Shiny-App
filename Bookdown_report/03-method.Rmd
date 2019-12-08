@@ -1,0 +1,7 @@
+#Algorithmic Design
+
+
+As a whole the app runs very smoothly. All of our plots that initially ran slow were rendered in the cache as to speed up the efficiency of comparison once the graphs were initially generated. Our data tables, line graph, and bar graph all render in real-time with no noticeable lag between user input and server output. 
+
+The one plot that does take some time to generate is the map. The large number of records present in the data frame used to build the map, through the use of both latitude and longitude data as well as total score data, increases the load time. A spinner was added to not jar the user’s experience during the rendering of the map. The render time of the graph may prove to be an issue in terms of scalability. Given more research into more streamlined algorithmic design and data preparation regarding this type of map would go a long way in reducing wait time and improving the user’s experience when navigating through our Shiny app.
+

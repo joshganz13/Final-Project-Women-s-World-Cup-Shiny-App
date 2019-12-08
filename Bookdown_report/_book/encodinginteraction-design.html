@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title> 3 Encoding/Interaction Design | Data Visualization Design Project</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
+
+  <meta property="og:title" content=" 3 Encoding/Interaction Design | Data Visualization Design Project" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content=" 3 Encoding/Interaction Design | Data Visualization Design Project" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Joshua Ganz, Julian Mucha &amp; Eric Rwabuhihi" />
+
+
+<meta name="date" content="2019-12-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="dataoperation-abstraction-design.html"/>
+<link rel="next" href="algorithmic-design.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Data Visualization Design Project</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction: Domain Problem Characterization</a></li>
+<li class="chapter" data-level="2" data-path="dataoperation-abstraction-design.html"><a href="dataoperation-abstraction-design.html"><i class="fa fa-check"></i><b>2</b> Data/Operation Abstraction Design</a></li>
+<li class="chapter" data-level="3" data-path="encodinginteraction-design.html"><a href="encodinginteraction-design.html"><i class="fa fa-check"></i><b>3</b> Encoding/Interaction Design</a></li>
+<li class="chapter" data-level="4" data-path="algorithmic-design.html"><a href="algorithmic-design.html"><i class="fa fa-check"></i><b>4</b> Algorithmic Design</a></li>
+<li class="chapter" data-level="5" data-path="user-evaluation.html"><a href="user-evaluation.html"><i class="fa fa-check"></i><b>5</b> User Evaluation</a></li>
+<li class="chapter" data-level="6" data-path="future-work.html"><a href="future-work.html"><i class="fa fa-check"></i><b>6</b> Future Work</a></li>
+<li class="chapter" data-level="" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i>Appendix</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Visualization Design Project</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="encodinginteraction-design" class="section level1">
+<h1><span class="header-section-number"> 3</span> Encoding/Interaction Design</h1>
+<p>The FIFA Women’s World Cup is a global and increasingly popular tournament. The data of interest relates to the countries and the years they participated in the tournament, the number of goals and wins by country, where the countries are located around the globe, and the players in the tournament.</p>
+<p>Building interactive visual representations are important to assist end-users in answering specific questions. It is important the interactions work properly to display correct and useful data while avoiding redundancy, creating an intuitive and positive experience for the user. The validity of whether the data visualization design is effective is not just determined by the product being successfully built but also by whether it is the right product for the user.</p>
+<ol style="list-style-type: decimal">
+<li>What years did countries participate in the tournament and how many goals did they score, per year and across all tournaments?</li>
+</ol>
+<ul>
+<li>data was prepared to produce years countries participated, total goals scored per participating year*, and total goals scored across all tournaments</li>
+<li><p>interactive line plot created to visualize user-selected countries and their goals per year (credit: Ryan Wesslen)</p></li>
+<li><p>brushing option included in line plot to allow users the ability to select specific subsets of years and countries, which is reflected in the date generated in a data table below the line plot (Appendix A)</p></li>
+</ul>
+<p>*To generate the plot without errors, countries not participating in a particular year had to display zero goals on the plot when at least one other country was selected for a comparison. However, if the data table generates a zero for year_goals and total_goals_all_years in an observation, that country did not participate in the tournament for that year.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>How many wins did participating countries have during an individual tournament? Who won the tournament?</li>
+</ol>
+<ul>
+<li>data was prepared to total the wins of each participating country per tournament year, which was then joined with a data frame to add whether a team was the champion</li>
+<li>interactive bar plot created to visualize number of wins for each participating country during a specific year</li>
+<li>champion is designated with a colorblind-friendly red, while other bars a colorblind-friendly blue (Appendix B)</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Where around the globe are the participating countries located and what are the country goals per year?</li>
+</ol>
+<ul>
+<li>data was prepared to join latitude and longitude coordinates to the countries, as well as joining the countries with the total goals they scored by each team by year</li>
+<li>interactive map created to visualize the countries that participated during selected year and has a gradient fill to portray a comparison of each country’s total number of goals during that year’s tournament</li>
+<li>understanding processing time for this may take a few seconds, a processing spinner identifies the map is generating (Appendix C).</li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Who are the players participating in the 2019 World Cup?**</li>
+</ol>
+<ul>
+<li>squads data was prepared</li>
+<li>interactive data table created to visualize player information such as name, country, date of birth, age, position, club team, international appearances, and international goals</li>
+</ul>
+<p>**Only had 2019 roster data.</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="dataoperation-abstraction-design.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="algorithmic-design.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["FinalprojectVA.pdf", "FinalprojectVA.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
