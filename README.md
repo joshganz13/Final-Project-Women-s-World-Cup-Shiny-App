@@ -4,7 +4,8 @@ This is the final data visualization project for the Fall 2019: DSBA 5122 at Uni
 
 The objective of this project was to develop a Shiny app based on any data-related topic.
 
-The data: 
+The data:
+
 World Cup Outcomes:
 https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-09/wwc_outcomes.csv
 
