@@ -2,7 +2,7 @@
 
 ## This is the final data visualization project for the Fall 2019: DSBA 5122 at University of North Carolina at Charlotte. The objective of this project was to develop a Shiny app based on any data-related topic.
 
-#### The data:
+### The data:
 
 World Cup Outcomes:
 https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-09/wwc_outcomes.csv
@@ -28,7 +28,7 @@ Instructions for navigating this app:
   - 2019 Roster tab: Displays every participating teams roster for 2019.  You can select a specific team, search based on a specific term (country, club, position, player, etc), and sort the table by a category.
   - About tab: includes Github and Bookdown report links
   
-#### Links:
+### Links:
 
 Shiny app link: https://jganz.shinyapps.io/Data_Vis_DSBA5122_Fall19/
 
