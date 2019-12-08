@@ -27,9 +27,13 @@ Instructions for navigating this app:
   - World Cup Map tab: Select a World Cup year and see where the participating countries are located around the globe.  The gradient fill is not only used to identify the countries, but to give a glimpse as to who scored the most goals.
   - 2019 Roster tab: Displays every participating teams roster for 2019.  You can select a specific team, search based on a specific term (country, club, position, player, etc), and sort the table by a category.
   - About tab: includes Github and Bookdown report links
-  
+
 ### Links:
 
 Shiny app link: https://jganz.shinyapps.io/Data_Vis_DSBA5122_Fall19/
 
 Report link: https://bookdown.org/joshganz13/data_vis_project/
+
+# Reproducibility
+
+If you'd like to use the code, please do.  However, you will need to go into the Shiny app first (link above) and download the Happiness.wav file in the overview page.  Then place it in the www folder before running the Rproject.
