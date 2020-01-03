@@ -1,6 +1,6 @@
 # Final-Project-Women-s-World-Cup-Shiny-App
 
-## This is the final data visualization project for the Fall 2019: DSBA 5122 at University of North Carolina at Charlotte. The objective of this project was to develop a Shiny app based on any data-related topic.
+## This is the final data visualization project for the Fall 2019: DSBA 5122 at University of North Carolina at Charlotte. The objective of this project was to develop a Shiny app based on any data-related topic. *
 
 ### The data:
 
@@ -37,3 +37,5 @@ Report link: https://bookdown.org/joshganz13/data_vis_project/
 ### Presentation
 
 The presentation (.pptx) can be found in the Final Project folder.
+
+*In the future, I will improve the bar graph and improve this project.
